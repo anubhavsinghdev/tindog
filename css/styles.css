@@ -1,0 +1,172 @@
+body {
+  font-family: Montserrat;
+}
+
+h1 {
+  color: white;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-top: 40px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: bolder;
+}
+
+#cta {
+  padding: 40px 20px 40px 20px;
+  background-color: #ff4c68;
+}
+
+#features {
+  background-color: white;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  text-align: center;
+  position: relative;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+#testimonials {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.fe:hover {
+  color: #ff4c68;
+}
+
+.featureheading {
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: bolder;
+}
+
+.featurepara {
+  color: #8f8f8f;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.fe {
+  color: #ef8199;
+  padding-bottom: 20px;
+  font-size: 3.9rem;
+}
+
+.icons {
+  padding: 3%;
+  color: grey;
+}
+
+.icons:hover {
+  color: inkblue;
+  text-decoration: none;
+}
+
+.iphoneimage {
+  width: 55%;
+  transform: rotate(26deg);
+  padding-top: 50px;
+  position: absolute;
+  right: 30%;
+}
+
+.last {
+  font-family: 'Merriweather', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: bolder;
+  margin-bottom: 3%;
+}
+
+.lastcont {
+  text-align: center;
+}
+
+.lastest {
+  text-align: center;
+  color: #8f8f8f;
+}
+
+.navbar {
+  padding-left: 0;
+}
+
+.nav-item {
+  padding-right: 3em;
+  font-size: 1.2em;
+}
+
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.price-heading {
+  font-size: 3rem;
+}
+
+.press-logo {
+  padding-top: 10%;
+  width: 20%;
+  margin: 20px 20px 50px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 15%;
+  padding: 20px;
+}
+
+@media (max-width: 1028px) {
+  .iphoneimage {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+@media(max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+}
+
+@media(max-width: 1028px) {
+  #cta {
+    font-size: 1rem;
+  }
+}
